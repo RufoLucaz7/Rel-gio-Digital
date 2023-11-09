@@ -1,0 +1,73 @@
+
+@font-face {
+    font-family: 'nova2';
+    src: url('PirataOne-Regular.ttf');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('https://a.espncdn.com/photo/2023/0726/r1202312_1296x729_16-9.jpg') center;
+    height: 100vh;
+    font-family: 'nova2';
+    background-size: cover;
+    display: grid;
+    place-items: center;
+
+    
+}
+
+h1 {
+    color: #fff;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 4%;
+    color: white;
+    text-shadow: 4px 4px rgb(182, 19, 19) ;
+}
+
+section {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.relogio {
+    width: 90%;
+    padding: 3% 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: .3125rem;
+    background: transparent;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, .5);
+}
+
+.relogio div {
+    background: rgba(0, 0, 0, 0.898);
+    color: #fff;
+    text-shadow: 3px 3px rgb(182, 19, 19);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+    margin: 2%;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, .9);
+}
+
+.relogio span {
+    font-size: 7rem;
+}
+
+.relogio span.tempo {
+    font-size: 1rem;
+}
